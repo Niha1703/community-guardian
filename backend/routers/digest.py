@@ -6,8 +6,7 @@ import json
 
 router = APIRouter()
 
-DATA_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "sample_alerts.json")
-
+DATA_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "data", "sample_alerts.json")
 def load_alerts():
     with open(DATA_FILE, "r") as f:
         return json.load(f)
