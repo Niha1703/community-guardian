@@ -12,6 +12,14 @@
 
 ## Candidate Information
 
+## Requirement Coverage
+
+- **Create:** User can report a new incident from the app.
+- **View:** User can view alerts, safety digest, and digital defense content.
+- **Update:** User can mark an alert as verified.
+- **Search/Filter:** User can filter alerts by severity/category and use search.
+- **AI + Fallback:** The app uses AI for filtering/summarization/checklists, with rule-based fallback when AI is unavailable.
+
 | Field | Value |
 |---|---|
 | **Candidate Name** | *(Maloth Niha)* |
