@@ -35,14 +35,14 @@
 cd backend
 
 # Install dependencies
-pip install -r requirements.txt
+py -m pip install -r requirements.txt
 
 # Set up environment variables
 cp .env.example .env
 # Edit .env and add your ANTHROPIC_API_KEY
 
 # Run the backend
-uvicorn main:app --reload --port 8000
+py -m uvicorn main:app --reload --port 8000
 ```
 
 The API will be available at `http://localhost:8000`  
@@ -58,7 +58,9 @@ npm install
 
 # Start the React app
 npm start
+
 ```
+If Node.js is not installed, install the LTS version from nodejs.org first.
 
 The app will open at `http://localhost:3000`
 
