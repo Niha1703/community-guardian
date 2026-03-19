@@ -14,7 +14,7 @@
 
 | Field | Value |
 |---|---|
-| **Candidate Name** | *(Your Name)* |
+| **Candidate Name** | *(Maloth Niha)* |
 | **Scenario Chosen** | Scenario 3 — Intelligent Community Safety & Digital Wellness |
 | **Estimated Time Spent** | ~5.5 hours |
 | **College** | IIT Hyderabad |
