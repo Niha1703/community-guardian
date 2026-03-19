@@ -1,0 +1,98 @@
+[
+  {
+    "id": "a001",
+    "source": "neighborhood_watch",
+    "raw_text": "There was a suspicious person walking around Oak Street last night around 10 PM. He was wearing a hoodie. Very scary, I couldn't sleep!",
+    "category": "suspicious_activity",
+    "location": "Oak Street",
+    "timestamp": "2026-03-18T22:10:00Z",
+    "verified": false,
+    "severity": "low",
+    "ai_summary": null,
+    "tags": ["suspicious_person", "nighttime"]
+  },
+  {
+    "id": "a002",
+    "source": "local_police",
+    "raw_text": "OFFICIAL: Phishing emails targeting local bank customers reported. Emails claim your account is locked and ask for credentials. Do NOT click links. Contact your bank directly.",
+    "category": "digital_threat",
+    "location": "citywide",
+    "timestamp": "2026-03-18T14:30:00Z",
+    "verified": true,
+    "severity": "high",
+    "ai_summary": null,
+    "tags": ["phishing", "banking", "email_scam"]
+  },
+  {
+    "id": "a003",
+    "source": "community_forum",
+    "raw_text": "UGH I hate my neighbors they are so loud every night!!! This neighborhood has gone downhill. Nobody cares anymore!!",
+    "category": "noise_complaint",
+    "location": "Elm Avenue",
+    "timestamp": "2026-03-17T23:45:00Z",
+    "verified": false,
+    "severity": "none",
+    "ai_summary": null,
+    "tags": ["venting", "noise"]
+  },
+  {
+    "id": "a004",
+    "source": "cybersecurity_feed",
+    "raw_text": "ALERT: New ransomware strain 'LockBit-X' targeting home routers in residential areas. Ensure your router firmware is updated. Default passwords must be changed immediately.",
+    "category": "digital_threat",
+    "location": "citywide",
+    "timestamp": "2026-03-19T08:00:00Z",
+    "verified": true,
+    "severity": "critical",
+    "ai_summary": null,
+    "tags": ["ransomware", "router", "firmware"]
+  },
+  {
+    "id": "a005",
+    "source": "neighborhood_watch",
+    "raw_text": "Multiple car break-ins reported on Pine Road last week. At least 4 vehicles were broken into overnight. Police report filed. Avoid leaving valuables in cars.",
+    "category": "property_crime",
+    "location": "Pine Road",
+    "timestamp": "2026-03-16T07:20:00Z",
+    "verified": true,
+    "severity": "medium",
+    "ai_summary": null,
+    "tags": ["car_breakin", "theft", "property_crime"]
+  },
+  {
+    "id": "a006",
+    "source": "community_forum",
+    "raw_text": "Does anyone know a good pizza place nearby? Also I think I saw a raccoon near the dumpsters lol",
+    "category": "irrelevant",
+    "location": "Downtown",
+    "timestamp": "2026-03-19T11:00:00Z",
+    "verified": false,
+    "severity": "none",
+    "ai_summary": null,
+    "tags": ["irrelevant", "venting"]
+  },
+  {
+    "id": "a007",
+    "source": "local_police",
+    "raw_text": "SCAM ALERT: Elderly residents receiving calls from fake 'IRS agents' demanding gift card payments. This is a scam. The IRS does not call demanding immediate payment. Report to 1-800-366-4484.",
+    "category": "digital_threat",
+    "location": "citywide",
+    "timestamp": "2026-03-15T10:15:00Z",
+    "verified": true,
+    "severity": "high",
+    "ai_summary": null,
+    "tags": ["phone_scam", "elderly", "irs_scam"]
+  },
+  {
+    "id": "a008",
+    "source": "neighborhood_watch",
+    "raw_text": "Streetlight on Maple Ave has been out for 3 days. Dark stretch near the park. Please report to city maintenance.",
+    "category": "infrastructure",
+    "location": "Maple Avenue",
+    "timestamp": "2026-03-17T19:00:00Z",
+    "verified": false,
+    "severity": "low",
+    "ai_summary": null,
+    "tags": ["lighting", "infrastructure", "park"]
+  }
+]
