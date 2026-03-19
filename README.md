@@ -6,7 +6,7 @@
 
 ## 📽️ Video Demo
 
-🎥 **[Watch the 5–7 minute demo here](#)** ← *(Replace with your YouTube/Vimeo link before submitting)*
+🎥 **[Watch the 5–7 minute demo here](#)** ← *(Video link will be added before final submission)*
 
 ---
 
