@@ -33,7 +33,7 @@
 
 ### Prerequisites
 
-- Python 3.10+
+- Python 3.9+
 - Node.js 18+
 - An Anthropic API key ([get one here](https://console.anthropic.com))
 
@@ -51,6 +51,7 @@ cp .env.example .env
 
 # Run the backend
 py -m uvicorn main:app --reload --port 8000
+
 ```
 
 The API will be available at `http://localhost:8000`  
@@ -76,7 +77,7 @@ The app will open at `http://localhost:3000`
 
 ```bash
 # Terminal 1 — Backend
-cd backend && uvicorn main:app --reload --port 8000
+cd backend && py -m uvicorn main:app --reload --port 8000
 
 # Terminal 2 — Frontend
 cd frontend && npm start
@@ -88,10 +89,11 @@ cd frontend && npm start
 cd backend
 
 # Run all tests
-pytest tests/test_alerts.py -v
+py -m pytest tests/test_alerts.py -v
 
 # Run with coverage
-pytest tests/test_alerts.py -v --tb=short
+py -m pytest tests/test_alerts.py -v --tb=short
+
 ```
 
 ---
